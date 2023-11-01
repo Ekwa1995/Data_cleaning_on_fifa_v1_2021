@@ -1,0 +1,47 @@
+About Dataset
+Context
+Kaggle is notorious for providing pure, clean datasets ready for analysis and model building.
+
+So here I present to you a veeeeery messy and raw dataset of EA Sports' latest installment of their hit FIFA series - FIFA21, which I scraped from sofifa.com
+
+Content
+One of the challenges of web scraping is unclean data, and it natural, really. Different front-end developers write the HTML their own way, and that makes the incoming data unpredictable.
+
+You'll definitely learn a lot about data cleaning with this dataset.
+
+Acknowledgements
+A huge round of applause for sofifa.com for providing this amazing data!
+
+Inspiration
+Convert the height and weight columns to numerical forms
+Remove the unnecessary newline characters from all columns that have them.
+Based on the 'Joined' column, check which players have been playing at a club for more than 10 years!
+'Value', 'Wage' and "Release Clause' are string columns. Convert them to numbers. For eg, "M" in value column is Million, so multiply the row values by 1,000,000, etc.
+Some columns have 'star' characters. Strip those columns of these stars and make the columns numerical
+Which players are highly valuable but still underpaid (on low wages)? (hint: scatter plot between wage and value)
+Ask more questions yourself !
+
+-----------------------------------------------------------------------------------------
+
+À propos de l'ensemble de données
+Contexte
+Kaggle est connu pour fournir des ensembles de données purs et propres, prêts à être analysés et à créer des modèles.
+
+Je vous présente donc ici un ensemble de données très désordonné et brut du dernier opus d'EA Sports de leur série à succès FIFA - FIFA21, que j'ai récupéré sur sofifa.com.
+
+Contenu
+L’un des défis du web scraping réside dans les données impures, et c’est vraiment naturel. Différents développeurs front-end écrivent le code HTML à leur manière, ce qui rend les données entrantes imprévisibles.
+
+Vous en apprendrez certainement beaucoup sur le nettoyage des données avec cet ensemble de données.
+
+Remerciements
+Un immense applaudissement pour sofifa.com pour avoir fourni ces données étonnantes !
+
+Inspiration
+Convertir les colonnes de taille et de poids en formes numériques
+Supprimez les caractères de nouvelle ligne inutiles de toutes les colonnes qui en contiennent.
+Grâce à la colonne « Rejoints », vérifiez quels joueurs jouent dans un club depuis plus de 10 ans !
+"Valeur", "Salaire" et "Clause de libération" sont des colonnes de chaîne. Convertissez-les en nombres. Par exemple, "M" dans la colonne de valeur est Million, multipliez donc les valeurs des lignes par 1 000 000, etc.
+Certaines colonnes comportent des caractères « étoile ». Supprimez ces colonnes de ces étoiles et rendez les colonnes numériques
+Quels joueurs sont très précieux mais toujours sous-payés (avec de bas salaires) ?
+
